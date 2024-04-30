@@ -128,14 +128,14 @@ a{
 }
 .desc h3{
     margin-block:5px;
-    font-size: 27px;
+    font-size: 24px;
   
    
    
 }
 .desc p{
     margin-block:1px;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 600;
     
 }
@@ -160,7 +160,7 @@ a{
 }
 @media (max-width:500px){
     .header-section ,.theme{
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 700;
     }
 }
