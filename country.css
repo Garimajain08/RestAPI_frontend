@@ -1,0 +1,119 @@
+.country-page{
+    max-width: 1500px;
+    margin :0 auto;
+    margin-top:23px;
+}
+body{
+    --input-color:  hsl(0, 0%, 100%);
+    --background-color: hsl(0, 0%, 98%);
+    --text-color:hsl(200, 15%, 8%);
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+    background-color: var(--background-color);
+    color:var(--text-color);
+   
+}
+.theme{
+    cursor: pointer;
+  
+}
+body.darkmode {
+    --input-color:hsl(209, 23%, 22%);
+    --background-color: hsl(207, 26%, 17%);
+   --text-color: hsl(0, 0%, 100%);
+    background-color: var(--background-color);
+    color:var(--text-color);
+
+  }
+button{
+    background-color: var(--background-color);
+    color:var(--text-color);
+    box-shadow: 1px 0px 1px 1px grey;
+    border:none;
+    padding:3px 13px;
+    font-size: 21px;
+    font-weight: 700;
+}
+.country-section{
+    display:flex;
+    margin-top:83px;
+    /* background-color: aquamarine; */
+}
+.flag{
+    max-width:50%
+}
+img{
+    width:100%
+}
+.boxes p{
+
+    margin-block:4px;
+}
+.cname{
+    font-size:28px;
+    font-weight: 900;
+}
+.boxes{
+    display: flex;;
+    flex-direction: column;
+    height:180px;
+    flex-wrap: wrap;
+    column-gap:73px;
+   
+    /* background-color: aqua; */
+}
+.about{
+    padding:12px;
+    width: 50%;
+
+}
+.boxes p{
+    font-size: 24px;
+    font-weight: 600;
+}
+.boxes span{
+    font-size:21px;
+    font-weight: 400;
+}
+.bordername{
+   margin-right:6px;
+    display: inline-block;
+    padding:1px 3px;
+    font-size: 19px;
+    cursor: pointer;
+    box-shadow: 0px 0px 1px 0.8px grey;
+}
+.border-countries{
+font-size:21px;
+font-weight: 700;
+}
+.border-countries span{
+    padding:2px 12px;
+    gap:4px;
+    box-shadow:0px 1px 2px 2px grey
+}
+@media screen and (max-width:990px){
+    body{
+        overflow-x:none;
+    }
+    .country-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+}
+@media(max-width:670px){
+    .boxes{
+        display:inline-block;
+        
+    }
+    .boxes p{
+        margin-block:13px;
+    }
+}
+@media (max-width:500px){
+    .header-section ,.dark{
+        font-size: 13px;
+        font-weight: 700;
+    }
+}
