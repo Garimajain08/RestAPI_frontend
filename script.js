@@ -22,7 +22,7 @@ data.forEach(country => {
     const newcountry = document.createElement('a');  
      newcountry.classList.add('country');
      const url =`/name/${country.name.common}`
-     newcountry.href=`/country.html?country=${country.name.common}`
+     newcountry.href=`./country.html?country=${country.name.common}`
      
 const card=
 `<img src="${country.flags.svg}" alt="">
